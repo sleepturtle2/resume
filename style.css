@@ -159,6 +159,7 @@ li {
 #lamp-content-view {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 0;
 }
 
 .links {
