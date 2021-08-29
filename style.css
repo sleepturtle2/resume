@@ -41,7 +41,9 @@ li {
 #header-college {
     margin-bottom: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* make 1fr fr to include image */
+    grid-template-columns: 1fr;
+    margin-top: 10px;
     align-items: center;
 }
 
