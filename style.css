@@ -39,11 +39,19 @@ li {
 }
 
 #header-college {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 #header-college h1 {
     line-height: 50px;
+}
+
+#header-college img {
+    border: 3px grey solid;
+    margin-top: 10px;
 }
 
 .github {
@@ -68,6 +76,15 @@ li {
     background-color: white;
     margin: auto;
     border-bottom: 2px solid black;
+}
+
+.workex {
+    /* border: 1px solid grey; */
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 10px 0 0 15px;
+    text-align: left;
+    line-height: 10px;
 }
 
 .projects {
@@ -128,6 +145,7 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 15px;
+    margin: 5px;
 }
 
 .live-link,
@@ -141,36 +159,6 @@ li {
     border-right: 1px solid lightgrey;
 }
 
-#blog-tech {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#blog-heading {
-    margin-bottom: 0;
-    height: 25px;
-}
-
-.lamp {
-    margin: 10px;
-    border-bottom: 1px solid lightgrey;
-}
-
-#lamp-content-view {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    margin-bottom: 0;
-}
-
-.links {
-    margin: 5px;
-}
-
-#maze-tech {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 
 /*end of projects*/
 
@@ -178,16 +166,15 @@ li {
 /*Achievements*/
 
 .achievements,
-.skills,
-.education {
-    width: 95%;
+.skills {
     justify-content: center;
     margin: 0 auto 10 auto;
 }
 
 .achievements-text {
     font-size: 15px;
-    padding: 1em;
+    text-align: left;
+    /* padding: 1em; */
 }
 
 .skill-container {
@@ -196,7 +183,7 @@ li {
 }
 
 .skill-container li {
-    font-size: 13px;
+    font-size: 15px;
     width: 100%;
 }
 
